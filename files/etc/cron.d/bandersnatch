@@ -1,0 +1,3 @@
+LC_ALL=en_US.utf8
+*/2 * * * * root bandersnatch mirror |& logger -t bandersnatch[mirror]
+12 * * * * root bandersnatch update-stats |& logger -t bandersnatch[update-stats]

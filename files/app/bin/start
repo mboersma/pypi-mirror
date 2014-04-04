@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# start cron without daemon mode
+cron -f
+
+# start nginx to serve pypi files
+#/usr/sbin/nginx

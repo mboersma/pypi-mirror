@@ -1,0 +1,7 @@
+server {
+    listen 127.0.0.1:80;
+    server_name pypi-mirror.local;
+    root /srv/pypi/web;
+    autoindex on;
+    charset utf-8;
+}
